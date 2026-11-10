@@ -1,0 +1,21 @@
+{
+  "name": "custo-importacao-br",
+  "version": "0.1.0",
+  "description": "Custo nacionalizado e teto de preço nacional por NCM com dados abertos do Brasil (Comex Stat, TEC, TIPI, PTAX)",
+  "type": "module",
+  "license": "MIT",
+  "author": "Thiago Garofalo (https://garofalodeveloper.com)",
+  "repository": "github:thiagogardev/custo-importacao-br",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "ncm": "tsx src/cli.ts",
+    "todos": "tsx src/cli.ts --todos",
+    "test": "tsx --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}
