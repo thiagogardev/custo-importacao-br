@@ -1,5 +1,7 @@
 # custo-importacao-br
 
+[![testes](https://github.com/thiagogardev/custo-importacao-br/actions/workflows/testes.yml/badge.svg)](https://github.com/thiagogardev/custo-importacao-br/actions/workflows/testes.yml)
+
 **Quanto custa importar 1 kg de qualquer NCM, e a partir de que preço comprar no Brasil sai mais barato.**
 Só com dados abertos e oficiais: Comex Stat (MDIC), TEC com os anexos da Resolução Gecex nº 272/2021
 (MDIC/Camex), TIPI (Receita Federal) e PTAX (Banco Central).
